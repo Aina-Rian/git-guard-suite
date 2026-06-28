@@ -51,7 +51,7 @@ sudo apt update && sudo apt install git zenity libnotify-bin upower
 ## 📦 Installation
 
 ```bash
-git clone [https://github.com/VOTRE_PSEUDO/git-guard-suite.git](https://github.com/VOTRE_PSEUDO/git-guard-suite.git)
+git clone https://github.com/aina-rian/git-guard-suite.git
 cd git-guard-suite
 chmod +x install.sh
 ./install.sh
