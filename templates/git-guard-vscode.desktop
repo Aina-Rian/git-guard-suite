@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=/bin/bash {{USER_BIN_DIR}}/watch-vscode.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Git Guard VS Code Watcher

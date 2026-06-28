@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec={{USER_BIN_DIR}}/git-cron-check.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Git Guard Rappel Soir
