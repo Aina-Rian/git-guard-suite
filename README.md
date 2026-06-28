@@ -70,7 +70,9 @@ rm -f ~/.config/autostart/git-guard-*.desktop
 crontab -l 2>/dev/null | grep -v "git-cron-check.sh" | crontab -
 ```
 
-# Ouvrez votre fichier ~/.zshrc et supprimez manuellement le bloc situé entre :
-# # === GIT GUARD HOOKS ===
-# ...
-# # === END GIT GUARD ===
+Ouvrez votre fichier ~/.zshrc et supprimez manuellement le bloc situé entre :
+```
+=== GIT GUARD HOOKS ===
+...
+=== END GIT GUARD ===
+```
