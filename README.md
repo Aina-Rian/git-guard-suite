@@ -43,7 +43,8 @@ Le script principal utilise des outils natifs Linux pour l'affichage graphique e
 * **`upower`** : Requis pour le module *Battery Guard*.
 
 ```bash
-sudo apt update && sudo apt install git zenity libnotify-bin upower 
+sudo apt update && sudo apt install git zenity libnotify-bin upower
+```
 
 ---
 
@@ -54,7 +55,9 @@ git clone [https://github.com/VOTRE_PSEUDO/git-guard-suite.git](https://github.c
 cd git-guard-suite
 chmod +x install.sh
 ./install.sh
+```
 
+---
 
 ## 📦 Desinstallation
 
@@ -65,6 +68,7 @@ rm -f ~/.local/bin/git-cron-check.sh
 rm -f ~/.local/bin/git-battery-guard.sh
 rm -f ~/.config/autostart/git-guard-*.desktop
 crontab -l 2>/dev/null | grep -v "git-cron-check.sh" | crontab -
+```
 
 # Ouvrez votre fichier ~/.zshrc et supprimez manuellement le bloc situé entre :
 # # === GIT GUARD HOOKS ===
